@@ -11,7 +11,7 @@ function Get() {
 
   const fetchData = () => {
     axios
-      .get("http://localhost:3001/api/data")
+      .get("https://backend01-3.onrender.com/api/data")
       .then((response) => {
         setItems(response.data.data);
         data = response.data.data;
