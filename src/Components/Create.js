@@ -13,7 +13,7 @@ function Create() {
     };
     console.log(user);
 
-    await fetch("http://localhost:3001/api/add", {
+    await fetch("https://backend01-3.onrender.com/api/add", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
