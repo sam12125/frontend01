@@ -13,7 +13,7 @@ function Update() {
     };
     console.log(user);
 
-    await fetch(`http://localhost:3001/api/update/${id}`, {
+    await fetch(`https://backend01-3.onrender.com/api/update/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
