@@ -13,7 +13,7 @@ function Get() {
 
   const fetchData = () => {
     axios
-      .get("http://localhost:3001/api/count")
+      .get("https://backend01-3.onrender.com/api/count")
       .then((response) => {
         setGetcount(response.data.addCount);
         setUpdatecount(response.data.updateCount);
